@@ -17,4 +17,4 @@ def largos(palabras):
   return [len(palabra) for palabra in palabras]
 ```
 
-> Redefiní la función `meses` para que haga lo mismo que antes pero utilizando listas por comprensión. 
+> Redefiní la función `meses` para que haga lo mismo que antes pero utilizando listas por comprensión.
