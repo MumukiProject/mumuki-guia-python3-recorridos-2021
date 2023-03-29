@@ -4,11 +4,14 @@ expectations:
   binding: "*"
   inspection: DeclaresFunction:meses_afortunados
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: meses_afortunados
-  inspection: Not:Uses:meses
+  binding: "*"
+  inspection: DeclaresComputationWithArity1:meses_afortunados
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: meses_afortunados
   inspection: Not:Uses:afortunados
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: meses_afortunados
-  inspection: Not:UsesForeach
+  inspection: Not:Uses:meses
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: meses_afortunados
+  inspection: UsesForeach
