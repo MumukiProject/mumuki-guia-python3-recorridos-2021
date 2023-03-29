@@ -4,7 +4,7 @@ También se puede combinar la idea de filtrar y de mapear en las listas por comp
 
 ``` python
 def doble_de_los_mayores_a_5(numeros)
-  [numero * 2 for numero in numeros if numero > 5]
+  return [numero * 2 for numero in numeros if numero > 5]
 ```
 
 A modo de resumen, la sintaxis general de las listas por comprensión es `[expresion for elemento in lista if condicion]`. :sunglasses:
