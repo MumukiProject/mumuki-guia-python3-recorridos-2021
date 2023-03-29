@@ -2,7 +2,10 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresFunction:afortunados
+  inspection: Declares:afortunados
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:afortunados
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: afortunados
   inspection: Not:UsesForeach
