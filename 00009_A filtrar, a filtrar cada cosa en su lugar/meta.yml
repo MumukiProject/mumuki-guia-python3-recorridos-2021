@@ -7,5 +7,6 @@ type: problem
 extra_visible: false
 teacher_info: ''
 manual_evaluation: false
+progressive_expectations: false
 choices: []
 name: A filtrar, a filtrar cada cosa en su lugar
