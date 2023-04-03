@@ -14,4 +14,4 @@ expectations:
   inspection: Not:Uses:meses
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: meses_afortunados
-  inspection: UsesForeach
+  inspection: Not:UsesForeach
