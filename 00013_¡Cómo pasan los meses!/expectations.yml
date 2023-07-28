@@ -6,3 +6,12 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: DeclaresComputationWithArity1:meses
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: meses
+  inspection: Assigns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: meses
+  inspection: UsesForeach
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: meses
+  inspection: Uses:append

@@ -1,0 +1,2 @@
+expectation "`meses` debe usar el operador de indexación `[]` para acceder a la clave `mes`":
+  through `meses` CallsGetAt with (anything, "mes");
